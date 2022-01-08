@@ -25,6 +25,8 @@
     100%{top: 150px;}
 }
 
+
+
 #quadrado{
     width: 30px;
     height: 40px;
@@ -35,7 +37,42 @@
     animation: quadrado 1.5s infinite linear;
 }
 
+
 @keyframes quadrado{
     0%{left: 570px;}
     100%{left: -30px;}
 }
+
+
+#score {
+    height: auto;
+    width: auto;
+    position: absolute;
+    top: 20px;
+    right: 320px;
+}
+#fase {
+    height: auto;
+    width: auto;
+    position: absolute;
+    top: 20px;
+    left: 320px;
+}
+#tips {
+    height: auto;
+    width: auto;
+    position: absolute;
+    top:210px;
+    }
+
+#gameOver {
+        display: none;
+        font-size: 70px;
+        position: absolute;
+        left: calc(50% - 181px);
+        top: calc(50% - 40px);
+        width: 362px;
+        height: 80px;
+        color: #525252;
+    }
+    
