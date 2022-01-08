@@ -1,0 +1,41 @@
+.game {
+    width: 600px;
+    height: 200px;
+    border: 1px solid black;
+    margin: auto;
+  }
+
+#personagem{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    position: relative;
+    top: 150px;
+}
+
+.jump{
+    animation: jump 0.3s linear;
+}
+
+@keyframes jump {
+    0%{top: 150px;}
+    30%{top: 100px;}
+    50%{top: 80px;}
+    80%{top: 130px;}
+    100%{top: 150px;}
+}
+
+#quadrado{
+    width: 30px;
+    height: 40px;
+    background-color: blue;
+    position: relative;   
+    top: 110px;
+    left: 580px;
+    animation: quadrado 1.5s infinite linear;
+}
+
+@keyframes quadrado{
+    0%{left: 570px;}
+    100%{left: -30px;}
+}
